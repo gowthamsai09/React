@@ -10,10 +10,16 @@ import FunctionOnclick from './components/funEventOnclick';
 import ClassClick from './components/ClassClick';
 import Eventbind from './components/Eventbind';
 import Parentcomponent from './components/Methods_as_props/Parentcomponent';
+import ListRendering from './components/ListRen';
+import Stylesheet from './components/Stylesheet';
+import Inline from './components/Inline';
 function App() {
     return (
          <div className = "App" >
-            <Parentcomponent />
+            <Inline />
+            {/* <Stylesheet primary={true} /> */}
+            {/* <ListRendering /> */}
+            {/* <Parentcomponent /> */}
             {/* <Eventbind /> */}
             {/* <ClassClick /> */}
             {/* <FunctionOnclick /> */}
