@@ -12,11 +12,21 @@ import Eventbind from './components/Eventbind';
 import Parentcomponent from './components/Methods_as_props/Parentcomponent';
 import ListRendering from './components/ListRen';
 import Stylesheet from './components/Stylesheet';
-import Inline from './components/Inline';
+import Inline from './components/Inline'
+import Form from './components/form';
+import Lifecyclemount from './components/Lifecyclemount';
+import FragmentDemo from './components/FragmentDemo';
+import Purecomponent from './components/Purecomponent_for_extending_class';
+import Parentcomp_EC from './components/Parentcomp_EC';
 function App() {
     return (
          <div className = "App" >
-            <Inline />
+            <Parentcomp_EC />
+            {/* <Purecomponent /> */}
+            {/* <FragmentDemo /> */}
+            {/* <Lifecyclemount /> */}
+            {/* <Form /> */}
+            {/* <Inline /> */}
             {/* <Stylesheet primary={true} /> */}
             {/* <ListRendering /> */}
             {/* <Parentcomponent /> */}
