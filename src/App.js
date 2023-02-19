@@ -18,10 +18,14 @@ import Lifecyclemount from './components/Lifecyclemount';
 import FragmentDemo from './components/FragmentDemo';
 import Purecomponent from './components/Purecomponent_for_extending_class';
 import Parentcomp_EC from './components/Parentcomp_EC';
+import Refs from './components/Refs';
+import Forwardref_parentInp from './components/Forwardref_parentInp';
 function App() {
     return (
          <div className = "App" >
-            <Parentcomp_EC />
+            <Forwardref_parentInp />
+            {/* <Refs /> */}
+            {/* <Parentcomp_EC /> */}
             {/* <Purecomponent /> */}
             {/* <FragmentDemo /> */}
             {/* <Lifecyclemount /> */}
