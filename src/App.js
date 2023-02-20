@@ -20,10 +20,14 @@ import Purecomponent from './components/Purecomponent_for_extending_class';
 import Parentcomp_EC from './components/Parentcomp_EC';
 import Refs from './components/Refs';
 import Forwardref_parentInp from './components/Forwardref_parentInp';
+import OnClick_HOC from './components/OnClick_HOC';
+import Hover_HOC from './components/Hover_HOC';
 function App() {
     return (
          <div className = "App" >
-            <Forwardref_parentInp />
+            <OnClick_HOC />
+            <Hover_HOC />
+            {/* <Forwardref_parentInp /> */}
             {/* <Refs /> */}
             {/* <Parentcomp_EC /> */}
             {/* <Purecomponent /> */}
