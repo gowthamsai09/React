@@ -22,11 +22,20 @@ import Refs from './components/Refs';
 import Forwardref_parentInp from './components/Forwardref_parentInp';
 import OnClick_HOC from './components/OnClick_HOC';
 import Hover_HOC from './components/Hover_HOC';
+import { UserProvider } from './components/React_Context/userContext';
+import ComponentA from './components/React_Context/ComponentA';
+import Postlist from './components/Http/Postlist';
+import PostForm from './components/Http/PostForm';
 function App() {
     return (
          <div className = "App" >
-            <OnClick_HOC />
-            <Hover_HOC />
+            {/* <Postlist /> */}
+            <PostForm />
+            {/* <UserProvider value= 'Sai'>
+                <ComponentA />
+            </UserProvider> */}
+            {/* <OnClick_HOC name='sai'/>
+            <Hover_HOC /> */}
             {/* <Forwardref_parentInp /> */}
             {/* <Refs /> */}
             {/* <Parentcomp_EC /> */}

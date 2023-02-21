@@ -19,7 +19,7 @@ class OnClick_HOC extends Component {
     const {count, incrementCount} = this.props
     return (
       <div>
-        <button onClick={incrementCount}>Clicked {count} times</button>
+        <button onClick={incrementCount}>{this.props.name} Clicked {count} times</button>
       </div>
     )
   }
