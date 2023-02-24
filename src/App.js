@@ -26,11 +26,15 @@ import { UserProvider } from './components/React_Context/userContext';
 import ComponentA from './components/React_Context/ComponentA';
 import Postlist from './components/Http/Postlist';
 import PostForm from './components/Http/PostForm';
+import HookCouter from './components/HookCouter';
+import HookCounter2 from './components/HookCounter2';
 function App() {
     return (
          <div className = "App" >
+            <HookCounter2 />
+            {/* <HookCouter /> */}
             {/* <Postlist /> */}
-            <PostForm />
+            {/* <PostForm /> */}
             {/* <UserProvider value= 'Sai'>
                 <ComponentA />
             </UserProvider> */}
