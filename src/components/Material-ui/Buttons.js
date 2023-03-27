@@ -9,10 +9,10 @@ export default function Buttons() {
 
   return (
     <div>
-       {/* <Button variant='contained' startIcon={<DeleteIcon />}>Click Me</Button> */}
-       {/* <IconButton aria-label='fingerprint' color='success'>
-    //     <Fingerprint /> */}
-       {/* </IconButton> */}
+       <Button variant='contained' startIcon={<DeleteIcon />}>Click Me</Button>
+        <IconButton aria-label='fingerprint' color='success'>
+    //     <Fingerprint /> 
+        </IconButton> 
        <Button variant='outlined'>click</Button>
     </div>
     
